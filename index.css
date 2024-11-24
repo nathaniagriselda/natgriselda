@@ -1,0 +1,73 @@
+body {
+    background: #2a294b;
+    display: grid;
+    place-items: center;
+    height: 200vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 15px;
+    height: auto;
+    width: 80vw;
+    max-width: 400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img.kucing {
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    margin-bottom: 10px;
+}
+
+.muted {
+    opacity: 0.8;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.password-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password-container input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.password-container button {
+    background-color: #14322e;
+    color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.password-container button:hover {
+    background-color: #1b453f;
+}
+
+.password-container button:active {
+    background-color: #102a25;
+}
